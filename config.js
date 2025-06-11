@@ -1,6 +1,14 @@
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 import { getAuth } from "firebase/auth";
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+
+export default defineConfig({
+  plugins: [react()],
+  base: './' // or '/' if deploying to root of a domain
+})
+
 
 export const firebaseApp = initializeApp({
   apiKey: "AIzaSyANt5f9BMdDFqgsNL7tYfctQJ4NVxfpudU",
