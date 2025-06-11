@@ -1,0 +1,8 @@
+@font-face {
+    font-family: RubikBubbles;
+    src: url("../public/RubikBubbles-Regular.ttf");
+}
+
+.rubik {
+    font-family: RubikBubbles;
+}
