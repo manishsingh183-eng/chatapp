@@ -7,7 +7,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: './' // or '/' if deploying to root of a domain
-})
+});
 
 
 export const firebaseApp = initializeApp({
